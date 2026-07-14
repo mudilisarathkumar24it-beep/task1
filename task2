@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#">Student Profile</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Student Card -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+
+                <div class="card shadow text-center">
+
+                    <img src="sarath.png"
+                         class="card-img-top mx-auto mt-3 rounded-circle"
+                         style="width:200px;height:200px;"
+                         alt="Student Photo">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">Mudili Sarath Kumar</h3>
+
+                        <p><strong>Roll Number:</strong> A24126511031</p>
+
+                        <p><strong>Branch:</strong> Information Technology</p>
+
+                        <p><strong>Email:</strong> mudilisarathkumar.24.it@anits.edu.in</p>
+
+                        <button class="btn btn-success">
+                            View Profile
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Academic Details -->
+    <div class="container mb-5">
+
+        <h2 class="text-center mb-4">Academic Details</h2>
+
+        <div class="table-responsive">
+
+            <table class="table table-bordered table-striped text-center">
+
+                <thead class="table-primary">
+                    <tr>
+                        <th>Subject Name</th>
+                        <th>Internal Marks</th>
+                        <th>External Marks</th>
+                        <th>Total Marks</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>HTML</td>
+                        <td>25</td>
+                        <td>65</td>
+                        <td>90</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>24</td>
+                        <td>66</td>
+                        <td>90</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>23</td>
+                        <td>67</td>
+                        <td>90</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>22</td>
+                        <td>68</td>
+                        <td>90</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <h5>ANIL NEERUKONDA INSTITUTE OF TECHNOLOGY AND SCIENCES COLLEGE</h5>
+        <p class="mb-0">&copy; 2026 Student Profile. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
